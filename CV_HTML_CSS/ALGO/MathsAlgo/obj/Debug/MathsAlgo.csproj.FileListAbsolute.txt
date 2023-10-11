@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\MathsAlgo\MathsAlgo\obj\Debug\MathsAlgo.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\MathsAlgo\MathsAlgo\obj\Debug\MathsAlgo.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\MathsAlgo\MathsAlgo\bin\Debug\MathsAlgo.exe.config
+C:\Users\User\Desktop\MathsAlgo\MathsAlgo\bin\Debug\MathsAlgo.exe
+C:\Users\User\Desktop\MathsAlgo\MathsAlgo\bin\Debug\MathsAlgo.pdb
+C:\Users\User\Desktop\MathsAlgo\MathsAlgo\obj\Debug\MathsAlgo.exe
+C:\Users\User\Desktop\MathsAlgo\MathsAlgo\obj\Debug\MathsAlgo.pdb

@@ -1,0 +1,14 @@
+C:\BTS SIO SLAM\projets_jacquet\Documentation\MathsAlgo\MathsAlgo\bin\Debug\net7.0\MathsAlgo.exe
+C:\BTS SIO SLAM\projets_jacquet\Documentation\MathsAlgo\MathsAlgo\bin\Debug\net7.0\MathsAlgo.deps.json
+C:\BTS SIO SLAM\projets_jacquet\Documentation\MathsAlgo\MathsAlgo\bin\Debug\net7.0\MathsAlgo.runtimeconfig.json
+C:\BTS SIO SLAM\projets_jacquet\Documentation\MathsAlgo\MathsAlgo\bin\Debug\net7.0\MathsAlgo.dll
+C:\BTS SIO SLAM\projets_jacquet\Documentation\MathsAlgo\MathsAlgo\bin\Debug\net7.0\MathsAlgo.pdb
+C:\BTS SIO SLAM\projets_jacquet\Documentation\MathsAlgo\MathsAlgo\obj\Debug\net7.0\MathsAlgo.GeneratedMSBuildEditorConfig.editorconfig
+C:\BTS SIO SLAM\projets_jacquet\Documentation\MathsAlgo\MathsAlgo\obj\Debug\net7.0\MathsAlgo.AssemblyInfoInputs.cache
+C:\BTS SIO SLAM\projets_jacquet\Documentation\MathsAlgo\MathsAlgo\obj\Debug\net7.0\MathsAlgo.AssemblyInfo.cs
+C:\BTS SIO SLAM\projets_jacquet\Documentation\MathsAlgo\MathsAlgo\obj\Debug\net7.0\MathsAlgo.csproj.CoreCompileInputs.cache
+C:\BTS SIO SLAM\projets_jacquet\Documentation\MathsAlgo\MathsAlgo\obj\Debug\net7.0\MathsAlgo.dll
+C:\BTS SIO SLAM\projets_jacquet\Documentation\MathsAlgo\MathsAlgo\obj\Debug\net7.0\refint\MathsAlgo.dll
+C:\BTS SIO SLAM\projets_jacquet\Documentation\MathsAlgo\MathsAlgo\obj\Debug\net7.0\MathsAlgo.pdb
+C:\BTS SIO SLAM\projets_jacquet\Documentation\MathsAlgo\MathsAlgo\obj\Debug\net7.0\MathsAlgo.genruntimeconfig.cache
+C:\BTS SIO SLAM\projets_jacquet\Documentation\MathsAlgo\MathsAlgo\obj\Debug\net7.0\ref\MathsAlgo.dll
