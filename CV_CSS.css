@@ -25,7 +25,8 @@
 .left-column {
     flex: 1;
     padding: 20px;
-    background-color: #53adcd;
+    background-color: #4BB6FF
+    /*#53adcd;*/
 }
 
 .left-column2 {
