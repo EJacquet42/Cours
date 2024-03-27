@@ -39,28 +39,34 @@
 
 <ul>
     <li><strong>Description :</strong> L'injection SQL permet à un attaquant d'insérer du code SQL malveillant dans une requête.</li>
-    <li><strong>Risques :</strong> Risques de divulgation ou de modification non autorisée de données dans la base de données.</li>
-    <li><strong>Solution :</strong> Utilisation de requêtes paramétrées pour prévenir les injections.</li>
+    <li><strong>Risques :</strong> <br>
+    - Divulgation de données sensibles : Les injections SQL peuvent permettre à un attaquant de récupérer ou de modifier des données sensibles dans la base de données.<br>
+    - Perte de confidentialité : Les attaquants peuvent extraire des informations confidentielles, telles que des informations d'identification ou des données financières, en exploitant les vulnérabilités d'injection SQL..</li>
+    <li><strong>Solution :</strong> <br>
+    - Utilisation de requêtes paramétrées ou de requêtes préparées : Comme illustré dans l'exemple PHP fourni dans le compte-rendu du TP, l'utilisation de requêtes paramétrées permet de séparer les données des instructions SQL, ce qui prévient efficacement les injections SQL.<br>
+    - Validation des entrées utilisateur : Valider les entrées utilisateur pour s'assurer qu'elles correspondent aux formats attendus peut également contribuer à prévenir les injections SQL en détectant les entrées malveillantes.</li>
 </ul>
 
-<p>Exemple en PHP :</p>
-<code>
-    $stmt = $pdo->prepare("SELECT * FROM users WHERE username = ?");
-    $stmt->execute([$username]);
-</code>
+<p>Exemple d'injection :</p>
+
+    " OR  LIMIT 1; --
+
 
 <h2>Cross-Site Scripting (XSS)</h2>
 
 <ul>
     <li><strong>Description :</strong> L'attaque XSS consiste à injecter des scripts malveillants dans des pages web.</li>
-    <li><strong>Risques :</strong> Risques de vol de cookies, d'exécution de scripts malveillants, etc.</li>
-    <li><strong>Solution :</strong> Filtrage et échappement des données utilisateur pour prévenir les attaques XSS.</li>
+    <li><strong>Risques :</strong> <br>
+    - Vol de cookies et session hijacking : Les attaques XSS peuvent permettre à un attaquant de voler des cookies de session, ce qui pourrait compromettre les comptes des utilisateurs.<br>
+    - Altération du contenu : Les attaques XSS peuvent modifier le contenu d'une page web, souvent dans le but de tromper les utilisateurs ou de diffuser des logiciels malveillants.</li>
+    <li><strong>Solution :</strong> <br>
+    - Comme mentionné dans le compte-rendu, le filtrage et l'échappement des données utilisateur avant leur affichage dans une page web peuvent empêcher l'exécution de scripts malveillants.<br>
+    - Utilisation de l'encodage HTML approprié : Assurez-vous que toutes les données provenant de sources non fiables sont correctement encodées avant d'être incluses dans une page HTML.</li>
 </ul>
 
-<p>Exemple en PHP :</p>
-<code>
-    $username = htmlspecialchars($_POST['username']);
-</code>
+<p>Exemple de XSS :</p>
+
+    <script>alert('Hello XSS')</script>
 
 <h2>Sécurisation de l'Application et du Système</h2>
 
